@@ -1,0 +1,57 @@
+.input-container {
+  position: relative;
+}
+
+.input {
+  background: #09121C;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  border-radius: 16px 16px 0 16px;
+  width: 100%;
+  height: 43px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125%;
+  color: #898F97;
+  outline: none;
+  padding-left: 20px;
+}
+
+.input__label {
+  position: absolute;
+  left:50px;
+  right: 0;
+  top: 14px;
+  bottom: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125%;
+  color: #898F97;
+  transform: translateY(0);
+  transition: transform .5s;
+
+  &.key {
+    &::before {
+      content: url("../images/key.svg");
+      left: -30px;
+      position: absolute;
+      background-repeat: no-repeat;
+    }
+  }
+  &.email {
+    &::before {
+      content: url("../images/mail.svg");
+      left: -30px;
+      position: absolute;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.input:not([value=""]) ~ .input__label {
+  transform: translateX(200%);
+
+}

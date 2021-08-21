@@ -1,0 +1,44 @@
+.button{
+  margin-top: 10px;
+  border-radius: 99px;
+  border: none;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  color: #FFFFFF;
+  outline: none;
+  position: relative;
+
+  &.play{
+    height: 50px;
+    width: 50px;
+
+
+    &::before{
+
+      content:' ';
+      background-image: url("../images/play.svg");
+      left: 20px;
+      position: absolute;
+      width: 100%;
+      top: 16px;
+      background-size: auto;
+      height: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  &.blue{
+    background: #3369FF;
+    box-shadow: 0px 5px 50px rgba(51, 105, 255, 0.7);
+  }
+  &.dark_blue{
+    background: #2B5D95;
+    box-shadow: 0px 5px 50px rgba(43, 93, 149, 0.7);
+  }
+  &.dark_red{
+    background: #FF334B;
+    box-shadow: 0px 5px 50px rgba(255, 51, 75, 0.7);
+  }
+}

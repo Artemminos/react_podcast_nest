@@ -1,0 +1,44 @@
+.home {
+  background-image: url('../images/home-bg.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__header {
+    padding: 15vh 35px;
+    background-image: url('../images/home-top-bg.png');
+    height: 55vh;
+    background-repeat: no-repeat;
+    border-radius: 46px;
+
+  }
+
+  &__container {
+    padding: 5vh 35px 0 35px;
+  }
+
+  &__content {
+
+  }
+
+  &__content-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+
+  &__content-slider {
+
+  }
+
+  &__authors {
+
+  }
+
+  &__authors-content {
+
+  }
+}

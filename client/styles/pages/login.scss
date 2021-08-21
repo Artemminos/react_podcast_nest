@@ -1,0 +1,50 @@
+.login {
+  background-image: url('../images/login-bg.png');
+  height: 100vh;
+background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    background: linear-gradient(180deg, rgba(57, 50, 96, 13) -292%, #09121C 46.01%, rgba(9, 18, 28, 0) 337.11%);
+    border-radius: 0 0 24px 0;
+    height: 90vh;
+    margin-right: 7vh;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125%;
+    color: #FFFFFF;
+    margin-bottom: 8vh;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__form-wrapper {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+
+
+  &__form-link {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 170%;
+    text-decoration-line: underline;
+    color: #898F97;
+  }
+}
